@@ -39,7 +39,7 @@
                                                 {{ csrf_field() }}
                                                 <button type="submit" class="btn btn-danger btn-sm" title="Delete Student" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
                                             </form>
-                                            Route::get('report/report1/{pid}',[ReportController::class,'report1']);
+                                            {{-- Route::get('report/report1/{pid}',[ReportController::class,'report1']); --}}
                                         </td>
                                     </tr>
                                 @endforeach
